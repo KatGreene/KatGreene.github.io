@@ -1733,3 +1733,26 @@ h1, h2, h3, h4, h5, h6 {
 pre, code {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.update-snackbar {
+  /* 确保在底部居中 */
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  
+  /* 更醒目的样式 */
+  background-color: #2196F3 !important;  /* 使用更醒目的蓝色 */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+  border-radius: 8px !important;
+  padding: 16px 24px !important;
+  
+  /* 更大的字体 */
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.update-snackbar .action {
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  margin-left: 24px !important;
+}
