@@ -2,7 +2,7 @@
 title: 
 SEOTitle: KatGreene's Blog
 header-img: img/home-bg-feixiao-1.jpg
-email: katgreeen@gmail.com
+email: cgz_catgreen_1234@outlook.com
 description: "这里是 @KatGreene 的个人博客"
 keyword: "KatGreene, KatGreene Blog, KatGreene"
 url: "https://katgreene.top" # your host, for absolute URL
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: katgreene
-zhihu_username: katgreene
+# weibo_username: katgreene
+# zhihu_username: katgreene
 github_username: katgreene
-twitter_username: katgreene
+# twitter_username: katgreene
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
