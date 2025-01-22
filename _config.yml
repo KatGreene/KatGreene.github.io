@@ -1,11 +1,11 @@
 # Site settings
-title: KatGreene Blog
-SEOTitle: KatGreene Blog
+title: 
+SEOTitle: KatGreene's Blog
 header-img: img/home-bg-feixiao-1.jpg
 email: katgreeen@gmail.com
 description: "这里是 @KatGreene 的个人博客"
 keyword: "KatGreene, KatGreene Blog, KatGreene"
-url: "https://katgreene.me" # your host, for absolute URL
+url: "https://katgreene.top" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.

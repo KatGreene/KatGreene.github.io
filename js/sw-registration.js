@@ -49,7 +49,7 @@ if(navigator.serviceWorker){
       console.log("UPDATE_FOUND_BY_SW", data);
       createSnackbar({
         message: "发现新内容！",
-        actionText: "立即刷新",
+        actionText: "点击此处刷新",
         duration: 0,
         position: 'bottom-center',
         classNames: 'update-snackbar',
