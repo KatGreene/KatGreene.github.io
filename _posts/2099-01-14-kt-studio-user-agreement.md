@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "KT Studio 用户协议"
+title:        "➜ KT Studio 用户协议"
 author:       "KatGreene"
 header-style: text
 catalog:      true
@@ -8,7 +8,7 @@ tags:
     - KT Studio
 ---
 
-## 《KT Studio》用户协议
+> 游玩前请仔细阅读《KT Studio》用户协议                                                     .
 
 ### 用户协议中文版本
 

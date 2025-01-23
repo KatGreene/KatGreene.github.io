@@ -47,14 +47,15 @@ if(navigator.serviceWorker){
     
     if(data.command == "UPDATE_FOUND"){
       console.log("UPDATE_FOUND_BY_SW", data);
-      createSnackbar({
-        message: "发现新内容！",
-        actionText: "点击此处刷新",
-        duration: 0,
-        position: 'bottom-center',
-        classNames: 'update-snackbar',
-        action: function(e){location.reload()}
-      })
+      location.reload();
+      // createSnackbar({
+      //   message: "发现新内容！",
+      //   actionText: "点击此处刷新",
+      //   duration: 0,
+      //   position: 'bottom-center',
+      //   classNames: 'update-snackbar',
+      //   action: function(e){location.reload()}
+      // })
     }
   }
 }

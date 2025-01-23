@@ -5,6 +5,9 @@ description: ""
 
 {% for post in paginator.posts %}
 <div class="post-preview">
+    {%- assign current_date = post.date | date: "%Y-%m-%d" -%}
+    {%- assign future_date = "2050-01-01" | date: "%Y-%m-%d" -%}
+
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
@@ -16,15 +19,18 @@ description: ""
         {% endif %}
         <div class="post-content-preview">
             {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:300 }}
+                {{ post.content | strip_html | truncate:100 }}
             {% else %}
-                {{ post.content | strip_html | truncate:200 }}
+                {{ post.content | strip_html | truncate:70 }}
             {% endif %}
         </div>
     </a>
+
+    {%- if current_date < future_date -%}
     <p class="post-meta">
-<!--        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}-->
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
+    {%- endif -%}
 </div>
 <hr>
 {% endfor %}

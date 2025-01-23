@@ -60,7 +60,12 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				{%- unless forloop.first -%}</section>{%- endunless -%}
 				<section>
 					<span class="fa listing-seperator">
-<!--						<span class="tag-text">{{ _currentdate }}</span>-->
+						{%- assign future_date = "2050-01-01" | date: "%Y-%m-%d" -%}
+						{%- if _currentdate < future_date -%}
+						<span class="tag-text">{{ _currentdate }}</span>
+						{%- else -%}
+						<span class="tag-text">置顶</span>
+						{%- endif -%}
 					</span>
 					{%- assign _date = _currentdate -%}
 					{%- endif -%}
