@@ -100,3 +100,7 @@ friends:
 include: 
   - sw.js
 
+assets:
+  cache_bust: true
+  cache_type: hard
+  cache_version: 1.0
