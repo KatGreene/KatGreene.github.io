@@ -22,19 +22,11 @@ tags:
 
 采用最新的角色渲染技术，使得游戏中的每一个角色细节都栩栩如生。无论是角色的表情变化，还是卡通材质的光影与特效，都力求达到原画级视觉体验。
 
-<img src="/img/404-bg.jpg" alt="KT Studio角色展示" style="width:100%; height:auto; border-radius: 8px">
-
 *- 十分甚至九分好看！*
-
-<div style="height: 15px;"></div>
 
 来自游戏内的场景，现在以全新的画风出现在您面前！不仅如此，您还可以自由调整太阳光的方向。
 
-<img src="/img/home-bg-silwolf-1.jpg" alt="KT Studio角色展示" style="width:100%; height:auto; border-radius: 8px">
-
 *- 高度定制化渲染的游戏场景*
-
-<div style="height: 15px;"></div>
 
 ### 身临其境的互动玩法
 
