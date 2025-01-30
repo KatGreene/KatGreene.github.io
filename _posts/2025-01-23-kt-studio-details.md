@@ -15,13 +15,13 @@ tags:
 
 参考：
 
-<a href = "bilibili.com/video/BV1kBBKYRE6Q">【Unity/虚幻5/Blender】3种引擎 绝区零风格 卡通渲染 星见雅 完整流程</a>
+<a href = "https://www.bilibili.com/video/BV1kBBKYRE6Q/">【Unity/虚幻5/Blender】3种引擎 绝区零风格 卡通渲染 星见雅 完整流程</a>
 
-<a href = "bilibili.com/video/BV1CN411C7qx">【Unity/虚幻5/Blender】3种引擎 崩坏: 星穹铁道风格 卡通渲染 从球谐光照到眉毛透过刘海 完整流程</a>
+<a href = "https://www.bilibili.com/video/BV1CN411C7qx">【Unity/虚幻5/Blender】3种引擎 崩坏: 星穹铁道风格 卡通渲染 从球谐光照到眉毛透过刘海 完整流程</a>
 
-<a href = "bilibili.com/video/BV1HN4y1X7uS">【Unity开源项目】纳西妲仿原神渲染预设工程</a>
+<a href = "https://www.bilibili.com/video/BV1HN4y1X7uS">【Unity开源项目】纳西妲仿原神渲染预设工程</a>
 
-<a href = "bilibili.com/video/BV1Qk4y1g7Fe">【Unity URP】仿星穹铁道渲染，代码看简介</a>
+<a href = "https://www.bilibili.com/video/BV1Qk4y1g7Fe">【Unity URP】仿星穹铁道渲染，代码看简介</a>
 
 ## 一、角色渲染部分
 

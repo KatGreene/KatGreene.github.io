@@ -14,7 +14,7 @@ tags:
 > 如果这些简短的记录能为你提供灵感，我将十分甚至九分高兴！同时也欢迎联系我进行深入♂交流。
 
 
-本文档还在施工中，请先阅读：<a href = "katgreene.github.io/2025/01/23/kt-studio-details/">KT Studio 开发记录（技术美术相关）</a>
+本文档还在施工中，请先阅读：<a href = "https://katgreene.github.io/2025/01/23/kt-studio-details/">KT Studio 开发记录（技术美术相关）</a>
 
 ## 核心玩法
 
