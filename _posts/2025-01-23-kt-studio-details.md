@@ -78,8 +78,11 @@ tags:
 - 待优化：平面反射的相机视角下，V向量不准确导致逆光增强异常。
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/ta/blog-ta-2025-01-30 155954.jpg" alt="KT Studio角色展示" style="width:48%; height:auto; border-radius: 8px">
-    <img src="/img/ta/blog-ta-2025-01-30 160010.jpg" alt="KT Studio角色展示" style="width:48%; height:auto; border-radius: 8px">
+
+<img src="/img/ta/blog-ta-2025-01-30 155954.jpg" alt="KT Studio角色展示" style="width:48%; height:auto; border-radius: 8px">
+
+<img src="/img/ta/blog-ta-2025-01-30 160010.jpg" alt="KT Studio角色展示" style="width:48%; height:auto; border-radius: 8px">
+
 </div>
 
 *- 角色边缘光总览*
@@ -127,10 +130,24 @@ tags:
 
 <div style="height: 15px;"></div>
 
+#### 阴影内效果
+- 丰富当角色处在阴影内的效果，包括阴影内较柔和的次二分阴影、更加柔和的高光。
+
+<div style="display: flex; justify-content: space-around;">
+
+<img src="/img/ta/blog-ta-2025-02-03 155307.jpg" alt="KT Studio角色展示" style="width:48%; height:auto; border-radius: 8px">
+
+<img src="/img/ta/blog-ta-2025-02-03 155323.jpg" alt="KT Studio角色展示" style="width:48%; height:auto; border-radius: 8px">
+</div>
+
+*- 角色阴影内效果总览*
+
+<div style="height: 15px;"></div>
+
 #### 多光源
 - 角色能够接受场景主光和额外光源的颜色；
 - 角色同一时间内只接受**唯一主光**产生的阴影，其它光源均不造成任何阴影（仅随距离进行亮度衰减）；
-- 待优化：灯光染色导致贴图颜色变脏发灰，需要针对NPR优化染色结果的饱和度范围。
+- 待优化：灯光染色导致贴图颜色变脏发灰，需要优化染色结果的饱和度范围。
 
 <div style="height: 15px;"></div>
 
@@ -164,10 +181,13 @@ tags:
 - 平面映射**焦散云**：天空采样平面映射后的焦散贴图，类似卷云或极光效果；
 - 星星点点：流动的**星光效果**。
 
-<div style="display: flex; justify-content: space-around;">
-    <img src="/img/ta/blog-ta-2025-01-30 160602.jpg" alt="KT Studio角色展示" style="width:48%; height:auto; border-radius: 8px">
-    <img src="/img/ta/blog-ta-2025-01-30 160641.jpg" alt="KT Studio角色展示" style="width:48%; height:auto; border-radius: 8px">
-</div>
+[//]: # (<div style="display: flex; justify-content: space-around;">)
+
+<img src="/img/ta/blog-ta-2025-01-30 160602.jpg" alt="KT Studio角色展示" style="width:100%; height:auto; border-radius: 8px">
+
+<img src="/img/ta/blog-ta-2025-01-30 160641.jpg" alt="KT Studio角色展示" style="width:100%; height:auto; border-radius: 8px">
+
+[//]: # (</div>)
 
 *- 程序化天空盒总览*
 
@@ -263,6 +283,8 @@ tags:
 | ①号 |       |          |      |      |         |
 | ②号 |       |          |      |      |         |
 
+<div style="height: 15px;"></div>
+
 - B档：中高端安卓手机 —— HIGH画质
 
 | 场景 | 平均FPS | 1%LowFPS | 平均功耗 | 峰值功耗 | 平均GPU负载 |
@@ -270,12 +292,16 @@ tags:
 | ①号 |       |          |      |      |         |
 | ②号 |       |          |      |      |         |
 
+<div style="height: 15px;"></div>
+
 - C档：中低端安卓平板 —— MID画质
 
 | 场景 | 平均FPS | 1%LowFPS | 平均功耗 | 峰值功耗 | 平均GPU负载 |
       |----|-------|----------|------|------|---------|
 | ①号 |       |          |      |      |         |
 | ②号 |       |          |      |      |         |
+
+<div style="height: 15px;"></div>
 
 ### 3. 后续优化
 
@@ -287,7 +313,11 @@ tags:
 
 → Python插件：清理无关物体、精简重复贴图、导出映射表 →
 
+→ Blender导出FBX →
+
 → Python脚本：贴图库中查找对应DDS贴图、转换为PNG格式 →
+
+→ Unity导入FBX →
 
 → Unity工具：根据映射表自动上贴图、生成材质变体、清理多余贴图 → 结束
 
