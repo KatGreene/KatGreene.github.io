@@ -1,12 +1,20 @@
----
-layout: page
-description: ""
----
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+        window.location.href = "https://katgreene.top";
+    </script>
+    ---
+    layout: page
+    description: ""
+    ---
+</head>
+<body>
 {% for post in paginator.posts %}
 <div class="post-preview">
     {%- assign current_date = post.date | date: "%Y-%m-%d" -%}
-    {%- assign future_date = "2050-01-01" | date: "%Y-%m-%d" -%}
+    {%- assign future_date = "2050 - 01 - 01" | date: "%Y-%m-%d" -%}
 
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -19,9 +27,9 @@ description: ""
         {% endif %}
         <div class="post-content-preview">
             {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:100 }}
+            {{ post.content | strip_html | truncate:100 }}
             {% else %}
-                {{ post.content | strip_html | truncate:70 }}
+            {{ post.content | strip_html | truncate:70 }}
             {% endif %}
         </div>
     </a>
@@ -50,3 +58,5 @@ description: ""
     {% endif %}
 </ul>
 {% endif %}
+</body>
+</html>

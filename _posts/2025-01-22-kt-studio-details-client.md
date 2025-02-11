@@ -11,7 +11,7 @@ tags:
 
 > 本文记录了我在 KT Studio 里，提出并实现了什么**系统需求**、**客户端功能**、**用户体验优化**等等；
 
-本文档还在施工中，请先阅读：<a href = "https://katgreene.github.io/2025/01/23/kt-studio-details/">KT Studio 开发记录（技术美术）</a>
+本文档还在施工中，请先阅读：<a href = "https://katgreene.top/2025/01/23/kt-studio-details/">KT Studio 开发记录（技术美术）</a>
 
 ## 一、核心系统
 

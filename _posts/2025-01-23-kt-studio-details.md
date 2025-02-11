@@ -13,7 +13,7 @@ tags:
 > 
 > 如果这些简短的记录能为你提供灵感，我将十分甚至九分高兴！
 > 
-> 同时也欢迎<a href = "https://katgreene.github.io/about/">联系我</a>进行深入♂交流。
+> 同时也欢迎<a href = "https://katgreene.top/about/">联系我</a>进行深入♂交流。
 
 ## 一、角色渲染部分
 
